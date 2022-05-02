@@ -166,7 +166,4 @@ variable "worker_logs_level" {
   default     = "INFO"
 }
 
-variable "subnet_ids" {
-  type        = list(string)
-  description = "The private subnet IDs in which the environment should be created. MWAA requires two subnets"
-}
+
