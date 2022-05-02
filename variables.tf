@@ -1,6 +1,7 @@
 variable "region" {
   type        = string
   description = "AWS region"
+  default     ="us-east-2"
 }
 
 variable "create_s3_bucket" {
