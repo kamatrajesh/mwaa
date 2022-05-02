@@ -98,8 +98,4 @@ variable "additional_security_group_rules" {
     EOT
 }
 
-variable "vpc_id" {
-  type        = string
-  description = "The ID of the VPC where the Security Group will be created."
-}
 
