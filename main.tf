@@ -169,8 +169,7 @@ module "mwaa_security_group" {
       ]
     }
   ]
-  vpc_id = var.vpc_id
-
+  
   context = module.sg_label.context
 }
 
